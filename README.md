@@ -22,4 +22,4 @@ This script processes  spectroscopy data to correct the baseline, smooth the sig
 
 1. Clone the repository or download the script.
    ```sh
-   git clone https://github.com/USERNAME/REPOSITORY_NAME.git
+   git clone https://github.com/Stergiou95/SpectrumPeaks.git
