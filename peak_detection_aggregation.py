@@ -71,11 +71,11 @@ for root, dirs, files in os.walk(folder_path):
 results_df = pd.DataFrame(all_results)
 
 # Save the results to a CSV file
-results_df.to_csv('peak_detection_resultsbox2.csv', index=False)
+results_df.to_csv('peak_detection_results.csv', index=False)
 print("Results saved to peak_detection_resultsbox2.csv")
 
 # Read the common peaks data from an Excel file
-file = r'box1-2 common peaks.xlsx'
+file = r'common peaks.xlsx'
 data = pd.read_excel(file)
 
 # Count the frequency of each peak wavenumber
