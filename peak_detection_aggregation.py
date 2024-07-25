@@ -33,7 +33,7 @@ for root, dirs, files in os.walk(folder_path):
             file_path = os.path.join(root, file)
 
             # Read the CSV file
-            data = pd.read_csv(file_path, sep=';', decimal=',', skiprows=20, header=None)
+            data = pd.read_csv(file_path)
             data.columns = ['Wavenumber', '1']
             data.columns = [col.strip() for col in data.columns]
 
